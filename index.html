@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Practice</title>
 </head>
+
 <body>
     <p>This is Yusra</p>
 </body>
@@ -19,12 +21,62 @@
 
     var oldMessage = "This is an old message.";
     oldMessage = "This message has been updated."; // This line is valid because 'old
-    console.log(oldMessage); 
+    console.log(oldMessage);
     // message' is declared with 'var' which allows reassignment.
     // Array
     const fruits = ["apple", "banana", "cherry"];
-    let array = ["Yusra", {age: 53, city : "Lahore"}, 65, false];
+
     console.log(fruits);
-    console.log(array);
+    let array = ["Yusra", { age: 53, city: "Lahore" }, 65, false];
+
+    console.log(array[1].city); // Accessing the city property of the object in the array
+
+    //object
+    const person = {
+        name: "Yusra",
+        age: 53,
+        city: "Lahore"
+    }
+    console.log(person.age);
+    //array of object
+    const array2 = [
+        fruit1 = {
+            name: "apple",
+            color: "red"
+        },
+        fruit2 = {
+            name: "banana",
+            color: "yellow"
+        },
+        fruit3 = {
+            name: "cherry",
+            color: "red"
+        }
+    ]
+    // console.log(array2[0].name); // Accessing the name property of the first object in the array
+    // array2.shift();
+    // console.log(array2);
+
+    // array2.unshift( fruit4 = {
+    //         name: "mango",
+    //         color: "yellow"
+    //     })
+
+
+    // array2.splice(1, 1, fruit5 = {
+    //     name: "orange",
+    //     color: "orange"
+    // });
+
+    //reverse the array
+    // array2.reverse();
+
+    //fill
+    array2.fill(fruit={
+        name: "kiwi",
+        color: "green"
+    });
+    console.log(array2);
 </script>
+
 </html>
