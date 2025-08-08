@@ -108,17 +108,50 @@
         //operator ?
         let age= prompt("Enter your age:");
         let message = (age >= 18) ? "You are an adult." : "You are a minor.";
-        alert(message);
+        alert(message);}
 
-    }
+        // Logical Operators Practice
 
-<<<<<<< HEAD
-=======
-    let str=23;
-    num= String(str);
-    alert(typeof num); // "string"
-    alert("Yusra Javedx")
->>>>>>> 93756f8 (level 1 continue)
+// 1. AND (&&) example
+let hasTicket = true;
+let hasID = false;
+
+if (hasTicket && hasID) {
+    console.log("You can enter the concert 🎵");
+} else {
+    console.log("Access denied ❌");
+}
+
+//  OR (||) example
+let hasUmbrella = false;
+let hasRaincoat = true;
+
+if (hasUmbrella || hasRaincoat) {
+    console.log("You're ready for the rain ☔");
+} else {
+    console.log("You might get wet 😅");
+}
+
+// NOT (!) example
+let isRaining = false;
+
+if (!isRaining) {
+    console.log("It's sunny outside ☀️");
+} else {
+    console.log("It's raining 🌧️");
+}
+
+// Combined operators
+let isStudent = true;
+let hasDiscountCard = false;
+let age3 = 20;
+
+if ((isStudent && age < 25) || hasDiscountCard) {
+    console.log("You get a discount 🎉");
+} else {
+    console.log("No discount available 😔");
+}
+
 </script>
 
 </html>
