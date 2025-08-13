@@ -152,6 +152,16 @@ if ((isStudent && age < 25) || hasDiscountCard) {
     console.log("No discount available 😔");
 }
 
+//example 
+let secret = Math.floor(Math.random() * 10) + 1; // random number 1-10
+let guess = prompt("Guess a number between 1 and 10:");
+
+if (parseInt(guess) === secret) {
+    alert("🎉 Correct! You guessed it!");
+} else {
+    alert("❌ Nope! The number was " + secret);
+}
+
 </script>
 
 </html>
