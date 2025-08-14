@@ -91,6 +91,12 @@
     // num = Number(num);
     // alert(typeof num); // "number"
 
+    let str=23;
+    num= String(str);
+    alert(typeof num); // "string"
+    alert("Yusra Javedx")
+
+    //conditional statements
     //example 1
     let age = prompt("Enter your age:");
     if(age>15)
@@ -108,51 +114,10 @@
         //operator ?
         let age= prompt("Enter your age:");
         let message = (age >= 18) ? "You are an adult." : "You are a minor.";
-        alert(message);}
+        alert(message);
 
-        // Logical Operators Practice
-
-// 1. AND (&&) example
-let hasTicket = true;
-let hasID = false;
-
-if (hasTicket && hasID) {
-    console.log("You can enter the concert 🎵");
-} else {
-    console.log("Access denied ❌");
-}
-
-//  OR (||) example
-let hasUmbrella = false;
-let hasRaincoat = true;
-
-if (hasUmbrella || hasRaincoat) {
-    console.log("You're ready for the rain ☔");
-} else {
-    console.log("You might get wet 😅");
-}
-
-// NOT (!) example
-let isRaining = false;
-
-if (!isRaining) {
-    console.log("It's sunny outside ☀️");
-} else {
-    console.log("It's raining 🌧️");
-}
-
-// Combined operators
-let isStudent = true;
-let hasDiscountCard = false;
-let age3 = 20;
-
-if ((isStudent && age < 25) || hasDiscountCard) {
-    console.log("You get a discount 🎉");
-} else {
-    console.log("No discount available 😔");
-}
-
-//example 
+    }
+    //example 
 let secret = Math.floor(Math.random() * 10) + 1; // random number 1-10
 let guess = prompt("Guess a number between 1 and 10:");
 
@@ -161,6 +126,8 @@ if (parseInt(guess) === secret) {
 } else {
     alert("❌ Nope! The number was " + secret);
 }
+
+
 
 </script>
 
